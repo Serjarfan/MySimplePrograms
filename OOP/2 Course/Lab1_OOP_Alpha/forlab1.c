@@ -12,28 +12,79 @@ error_t argz_create_sep(const char *string, int sep, char **argz, size_t *argz_l
 	if ((sep > 255) || (sep < 0))
 		return 1;
 
-	if (strlen(string) == 0)
-		return 1;
+ХУЙХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
+ХУЙ
 
-	if ((*argz = (char*) malloc(sizeof(char) * (strlen(string) + 1))) == NULL)
-		exit(1);
-
-
-	for (int i = 0; i < strlen(string); ++i)
-	{
-		if (*(string + i) == sep)
-			*(*argz + i) = '\0';
-		else
-			*(*argz + i) = *(string + i);
-	}
-	
-	*(*argz + strlen(string)) = '\0';
-	*argz_len = strlen(string) + 1;
-
-	return 0;
-}
-
-size_t  argz_count(const char *argz, size_t argz_len)
 {
 	int num = 0;
 	for (int i = 0; i < argz_len; ++i)
